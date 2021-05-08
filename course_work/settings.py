@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'student',
     'study',
     'project',
+    'help',
     'exam',
     'note',
 ]
