@@ -4,6 +4,7 @@ from student.models import Student
 # Create your models here.
 class Note(models.Model):
     note = models.TextField()
+
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
 
     def __str__(self):
