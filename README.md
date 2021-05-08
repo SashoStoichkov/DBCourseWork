@@ -1,4 +1,5 @@
-# Project Name
+# DB COURSE PROJECT
+# WORK IN PROGRESS
 
 Project Description
 
