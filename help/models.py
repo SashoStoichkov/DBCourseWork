@@ -10,4 +10,4 @@ class Help(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
 
     def __str__(self):
-        return 'Консултация за ' + self.project
+        return 'Консултация за ' + str(self.project)

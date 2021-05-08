@@ -23,4 +23,4 @@ class Exam(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
 
     def __str__(self):
-        return 'Защита на ' + self.project
+        return 'Защита на ' + str(self.project)
